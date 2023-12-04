@@ -44,7 +44,7 @@
   color: var(--themes-main-color);
   font-family: var(--font-family-PressStart2P);
   font-style: normal;
-  font-weight: var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   line-height: normal;
   text-transform: uppercase;
 }
@@ -202,34 +202,6 @@
 .card__image {
   width: 100%;
   height: 100%;
-}
-
-.card__image2 {
-  filter: sepia(73%);
-}
-
-.card__image3 {
-  filter: saturate(200%);
-}
-
-.card__image4 {
-  filter: brightness(150%);
-}
-
-.card__image5 {
-  filter: invert(0.7);
-}
-
-.card__image6 {
-  filter: grayscale(0.8);
-}
-
-.card__image7 {
-  filter: blur(5px);
-}
-
-.card__image8 {
-  filter: contrast(150%);
 }
 
 .card__text-button-box {
@@ -397,7 +369,6 @@
 .svg__save-button {
   position: relative;
   color: var(--button-color-white);
-  position: relative;
   filter: invert(1);
   mix-blend-mode: difference;
 }
@@ -542,4 +513,39 @@
     width: 28px;
     height: 28px;
   }
+}
+
+@supports (-webkit-text-stroke: 1px #ffffff) or (text-stroke: 1px #ffffff) {
+  .card__image__label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px #ffffff;
+  }
+}
+
+.filter_grayscale {
+  filter: grayscale(50%);
+}
+
+.filter_blur {
+  filter: blur(6px);
+}
+
+.filter_contrast {
+  filter: contrast(529%);
+}
+
+.filter_sepia {
+  filter: sepia(80%);
+}
+
+.filter_multiple {
+  filter: sepia(100%) blur(4px) brightness(130%) saturate(371%);
+}
+
+.filter_invert {
+  filter: invert(0.75);
+}
+
+.filter_hue-rotate {
+  filter: hue-rotate(-234deg);
 }
