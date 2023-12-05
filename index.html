@@ -16,9 +16,8 @@
   </head>
   <body class="page">
     <header class="header">
-      <div class="header__container">
-        <h1 class="header__title">&lt;/HTML&gt;</h1>
-        <h2 class="header__title-small">закрывающий тег</h2>
+        <a class="header__title">&lt;/HTML&gt;</a>
+        <h1 class="header__title-small">закрывающий тег</h1>
         <nav class="theme-menu header__theme-menu">
           <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
           <ul class="theme-menu__list">
@@ -52,7 +51,6 @@
             </li>
           </ul>
         </nav>
-      </div>
     </header>
     <main class="cards__main">
       <section class="card">
@@ -62,8 +60,9 @@
           </h2>
         </div>
         <div class="card__image-box">
+          <span class="card__image__label">&lt;/HTML&gt;</span>
           <img
-            class="card__image card__image1"
+            class="card__image"
             src="./images/image.png"
             alt="Изображение с автобусом"/>
         </div>
@@ -77,7 +76,7 @@
             <p>Место для ваших воспоминаний о начале обучения.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -108,7 +107,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -119,6 +118,7 @@
           <h2 class="card__title-text">1 спринт: Я — чистый лист</h2>
         </div>
         <div class="card__image-box">
+          <span class="card__image__label">&lt;/HTML&gt;</span>
           <img
             class="card__image filter_grayscale"
             src="./images/image.png"
@@ -136,7 +136,7 @@
             <p>Место для ваших воспоминаний о начале первого спринта.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -167,7 +167,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -177,9 +177,10 @@
         <div class="card__title">
           <h2 class="card__title-text">1 спринт: А если не получится?</h2>
         </div>
-        <div class="card__image-box card__image-box3">
+        <div class="card__image-box">
+          <span class="card__image__label">&lt;CSS&gt;</span>
           <img
-            class="card__image    filter_contrast   "
+            class="card__image filter_contrast"
             src="./images/image.png"
             alt="Изображение с автобусом"/>
         </div>
@@ -193,7 +194,7 @@
             <p>Место для ваших воспоминаний об окончании первого спринта.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -224,7 +225,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -234,7 +235,8 @@
         <div class="card__title">
           <h2 class="card__title-text">2 спринт: Погоня за идеалом</h2>
         </div>
-        <div class="card__image-box card__image-box4">
+        <div class="card__image-box">
+          <span class="card__image__label">&lt;desigions&gt;</span>
           <img
             class="card__image filter_sepia"
             src="./images/image.png"
@@ -252,7 +254,7 @@
             <p>Место для ваших воспоминаний о начале второго спринта.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -283,7 +285,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -293,7 +295,8 @@
         <div class="card__title">
           <h2 class="card__title-text">2 спринт: О тех, кто рядом</h2>
         </div>
-        <div class="card__image-box card__image-box5">
+        <div class="card__image-box">
+          <span class="card__image__label">care</span>
           <img
             class="card__image filter_invert"
             src="./images/image.png"
@@ -312,7 +315,7 @@
             <p>Место для ваших воспоминаний об окончании второго спринта.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -343,7 +346,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -353,7 +356,8 @@
         <div class="card__title">
           <h2 class="card__title-text">3 спринт: Обходные стратегии</h2>
         </div>
-        <div class="card__image-box card__image-box6">
+        <div class="card__image-box">
+          <span class="card__image__label">&lt;support&gt;</span>
           <img
             class="card__image filter_multiple"
             src="./images/image.png"
@@ -369,7 +373,7 @@
             <p>Место для ваших воспоминаний о начале третьего спринта.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -400,7 +404,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -410,7 +414,8 @@
         <div class="card__title">
           <h2 class="card__title-text">3 спринт: Когда опускаются руки</h2>
         </div>
-        <div class="card__image-box card__image-box7">
+        <div class="card__image-box">
+          <span class="card__image__label">&lt;lifes-style: none;&gt;</span>
           <img
             class="card__image filter_blur"
             src="./images/image.png"
@@ -428,7 +433,7 @@
             <p>Место для ваших воспоминаний об окончании третьего спринта.</p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -459,7 +464,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -469,7 +474,8 @@
         <div class="card__title">
           <h2 class="card__title-text">«Сейчас я здесь»</h2>
         </div>
-        <div class="card__image-box card__image-box8">
+        <div class="card__image-box">
+          <span class="card__image__label">&lt;experience&gt;</span>
           <img
             class="card__image filter_hue-rotate"
             src="./images/image.png"
@@ -491,7 +497,7 @@
             </p>
           </div>
           <div class="card__button-container">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
                 class="like-icon"
                 width="39"
@@ -522,7 +528,7 @@
                   fill="var(--heart-sparks-color)"/>
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="card__like-button-text">Like</span>
             </button>
           </div>
@@ -560,11 +566,13 @@
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <div class="dialog-text">
-          <p>Вставьте</p>
-          <p>дискету, чтобы</p>
-          <p>продолжить</p>
+          <p>Вставьте дискету, чтобы продолжить</p>
         </div>
-        <button class="dialog-ok-button" onclick="window['modal__window'].close()" type="button">ok</button>
+        <form class="form__dialog-ok-button" method="dialog"> 
+          <button class="dialog-ok-button" onclick="window['modal__window'].close()" type="button">
+            <span class="dialog-ok-button-text">ok</span>
+          </button>
+        </form>
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
