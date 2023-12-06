@@ -233,11 +233,11 @@
   line-height: 90%; /* 12.6px */
 }
 
-.svg__save-button {
-  position: relative;
-  color: var(--like-button-color);
-  filter: invert(1);
+.floppy {
+  width: 21px;
+  height: 21px;
   mix-blend-mode: difference;
+  color: var(--like-button-color);
 }
 
 .save__button-text {
@@ -302,6 +302,11 @@
   position: relative;
   color: var(--like-button-color);
   mix-blend-mode: difference;
+}
+
+.svg__save-button-dialog {
+  width: 39px;
+  height: 39px;
 }
 
 .dialog-ok-button {
@@ -380,7 +385,7 @@
     flex-direction: column;
   }
 
-  .svg__save-button {
+  .floppy {
     width: 28px;
     height: 28px;
   }
